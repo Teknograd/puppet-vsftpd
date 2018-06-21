@@ -52,6 +52,7 @@ class vsftpd (
   $ssl_sslv3              = undef,
   $require_ssl_reuse      = undef,
   $ssl_ciphers            = undef,
+  $extra_config           = {},
 ) inherits ::vsftpd::params {
   package { $package_name: ensure => installed }
   file { $configfile:
