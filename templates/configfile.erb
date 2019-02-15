@@ -226,5 +226,5 @@ require_ssl_reuse=<%= @require_ssl_reuse %>
 ssl_ciphers=<%= @ssl_ciphers %>
 <% end -%>
 <% @extra_config.each do |key, value| -%>
-<%= @key %>=<% @value %>
+<%= key %>=<% value %>
 <% end -%>
