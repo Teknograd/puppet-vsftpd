@@ -28,6 +28,7 @@ class vsftpd (
   $connect_from_port_20   = undef,
   $xferlog_std_format     = undef,
   $chroot_local_user      = undef,
+  $local_root             = undef,
   $listen                 = undef,
   $listen_ipv6            = undef,
   $pam_service_name       = undef,
@@ -51,6 +52,7 @@ class vsftpd (
   $ssl_sslv3              = undef,
   $require_ssl_reuse      = undef,
   $ssl_ciphers            = undef,
+  $extra_config           = {},
 ) inherits ::vsftpd::params {
   package { $package_name: ensure => installed }
   file { $configfile:

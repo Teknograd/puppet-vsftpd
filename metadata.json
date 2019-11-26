@@ -4,11 +4,10 @@
   "author": "aneesh",
   "summary": "Puppet module for vsftpd",
   "license": "Apache-2.0",
-  "source": "https://github.com/aneesh-c/puppet-vsftpd",
-  "project_page": "https://github.com/aneesh-c/puppet-vsftpd",
-  "issues_url": "https://github.com/aneesh-c/puppet-vsftpd/issues",
+  "source": "https://github.com/bahner/puppet-vsftpd",
+  "project_page": "https://github.com/bahner/puppet-vsftpd",
+  "issues_url": "https://github.com/bahner/puppet-vsftpd/issues",
   "dependencies": [
-  
   ],
   "data_provider": null,
   "tags": [
